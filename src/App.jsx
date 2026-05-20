@@ -16,6 +16,21 @@ export default function App() {
 
       </section>
 
+      {/* About */}
+      <section className="py-24 px-6 bg-slate-900/40 text-center">
+
+        <h2 className="text-4xl font-bold mb-10">
+          About <span className="text-sky-400">Me</span>
+        </h2>
+
+        <p className="max-w-3xl mx-auto text-slate-300 text-lg leading-relaxed">
+          Motivated Information Technology student passionate about
+          software development, cloud computing, Java, Python,
+          UI/UX design, and modern web technologies.
+        </p>
+
+      </section>
+
       {/* Skills */}
       <section className="py-24 px-6 text-center">
 
@@ -52,6 +67,39 @@ export default function App() {
         </div>
       </section>
 
+      {/* Projects */}
+      <section className="py-24 px-6 bg-slate-900/40 text-center">
+
+        <h2 className="text-4xl font-bold mb-16">
+          Featured <span className="text-sky-400">Projects</span>
+        </h2>
+
+        <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+
+          <div className="bg-slate-900 border border-slate-800 rounded-3xl p-8">
+            <h3 className="text-2xl font-bold mb-4">
+              DSA Problem Tracker
+            </h3>
+
+            <p className="text-slate-400">
+              Java application to track and manage DSA problems
+              using OOP concepts.
+            </p>
+          </div>
+
+          <div className="bg-slate-900 border border-slate-800 rounded-3xl p-8">
+            <h3 className="text-2xl font-bold mb-4">
+              E-Commerce Order Management
+            </h3>
+
+            <p className="text-slate-400">
+              Inventory and order management system for e-commerce workflows.
+            </p>
+          </div>
+
+        </div>
+      </section>
+
       {/* Certificates */}
       <section className="py-24 px-6 text-center">
 
@@ -61,7 +109,9 @@ export default function App() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
 
-          <div className="bg-slate-900 border border-slate-800 rounded-3xl p-8">
+          {/* Certificate 1 */}
+          <div className="bg-slate-900 border border-slate-800 rounded-3xl p-8 hover:border-sky-400 transition">
+
             <div className="text-5xl mb-6">🏆</div>
 
             <h3 className="text-2xl font-bold mb-4">
@@ -73,14 +123,18 @@ export default function App() {
             </p>
 
             <a
-              href="#"
-              className="text-sky-400"
+              href="https://drive.google.com/"
+              target="_blank"
+              className="text-sky-400 hover:text-sky-300"
             >
               View Certificate →
             </a>
+
           </div>
 
-          <div className="bg-slate-900 border border-slate-800 rounded-3xl p-8">
+          {/* Certificate 2 */}
+          <div className="bg-slate-900 border border-slate-800 rounded-3xl p-8 hover:border-sky-400 transition">
+
             <div className="text-5xl mb-6">☁️</div>
 
             <h3 className="text-2xl font-bold mb-4">
@@ -88,18 +142,22 @@ export default function App() {
             </h3>
 
             <p className="text-slate-400 mb-6">
-              Cloud fundamentals and services.
+              Cloud technologies and services certification.
             </p>
 
             <a
-              href="#"
-              className="text-sky-400"
+              href="https://drive.google.com/"
+              target="_blank"
+              className="text-sky-400 hover:text-sky-300"
             >
               View Certificate →
             </a>
+
           </div>
 
-          <div className="bg-slate-900 border border-slate-800 rounded-3xl p-8">
+          {/* Certificate 3 */}
+          <div className="bg-slate-900 border border-slate-800 rounded-3xl p-8 hover:border-sky-400 transition">
+
             <div className="text-5xl mb-6">💻</div>
 
             <h3 className="text-2xl font-bold mb-4">
@@ -107,18 +165,22 @@ export default function App() {
             </h3>
 
             <p className="text-slate-400 mb-6">
-              Java and OOP certification.
+              Java programming and OOP certification.
             </p>
 
             <a
-              href="#"
-              className="text-sky-400"
+              href="https://drive.google.com/"
+              target="_blank"
+              className="text-sky-400 hover:text-sky-300"
             >
               View Certificate →
             </a>
+
           </div>
 
-          <div className="bg-slate-900 border border-slate-800 rounded-3xl p-8">
+          {/* Certificate 4 */}
+          <div className="bg-slate-900 border border-slate-800 rounded-3xl p-8 hover:border-sky-400 transition">
+
             <div className="text-5xl mb-6">🧠</div>
 
             <h3 className="text-2xl font-bold mb-4">
@@ -130,14 +192,63 @@ export default function App() {
             </p>
 
             <a
-              href="#"
-              className="text-sky-400"
+              href="https://drive.google.com/"
+              target="_blank"
+              className="text-sky-400 hover:text-sky-300"
             >
               View Certificate →
             </a>
+
           </div>
 
         </div>
+      </section>
+
+      {/* Contact */}
+      <section className="py-24 px-6 text-center">
+
+        <h2 className="text-5xl font-bold mb-6">
+          Let's Work <span className="text-sky-400">Together</span>
+        </h2>
+
+        <p className="text-slate-400 text-lg mb-12">
+          Open to internships and collaborations.
+        </p>
+
+        <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+
+          <div className="bg-slate-900 border border-slate-800 rounded-3xl p-8">
+            <h3 className="text-sky-400 text-xl font-semibold mb-3">
+              Email
+            </h3>
+
+            <p className="text-slate-300">
+              korasikhapraveena5@gmail.com
+            </p>
+          </div>
+
+          <div className="bg-slate-900 border border-slate-800 rounded-3xl p-8">
+            <h3 className="text-sky-400 text-xl font-semibold mb-3">
+              GitHub
+            </h3>
+
+            <p className="text-slate-300">
+              github.com/praveena2306
+            </p>
+          </div>
+
+          <div className="bg-slate-900 border border-slate-800 rounded-3xl p-8">
+            <h3 className="text-sky-400 text-xl font-semibold mb-3">
+              LinkedIn
+            </h3>
+
+            <p className="text-slate-300">
+              linkedin.com/in/korasikha-praveena
+            </p>
+          </div>
+
+        </div>
+
       </section>
 
     </div>
