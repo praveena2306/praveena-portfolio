@@ -162,3 +162,104 @@ export default function App() {
     </div>
   )
 }
+// ADD THIS BELOW PROJECTS SECTION IN App.jsx
+
+{/* Certificates */}
+<section className="py-24 px-6 text-center">
+
+  <h2 className="text-4xl font-bold mb-16">
+    My <span className="text-sky-400">Certificates</span>
+  </h2>
+
+  <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
+
+    {/* Certificate 1 */}
+    <div className="bg-slate-900 border border-slate-800 rounded-3xl p-8 hover:border-sky-400 transition">
+
+      <div className="text-5xl mb-6">🏆</div>
+
+      <h3 className="text-2xl font-bold mb-4">
+        Python Programming
+      </h3>
+
+      <p className="text-slate-400 mb-6">
+        Certification in Python fundamentals and problem solving.
+      </p>
+
+      <a
+        href="#"
+        className="text-sky-400 hover:text-sky-300"
+      >
+        View Certificate →
+      </a>
+
+    </div>
+
+    {/* Certificate 2 */}
+    <div className="bg-slate-900 border border-slate-800 rounded-3xl p-8 hover:border-sky-400 transition">
+
+      <div className="text-5xl mb-6">☁️</div>
+
+      <h3 className="text-2xl font-bold mb-4">
+        Cloud Computing
+      </h3>
+
+      <p className="text-slate-400 mb-6">
+        Fundamentals of cloud technologies and services.
+      </p>
+
+      <a
+        href="#"
+        className="text-sky-400 hover:text-sky-300"
+      >
+        View Certificate →
+      </a>
+
+    </div>
+
+    {/* Certificate 3 */}
+    <div className="bg-slate-900 border border-slate-800 rounded-3xl p-8 hover:border-sky-400 transition">
+
+      <div className="text-5xl mb-6">💻</div>
+
+      <h3 className="text-2xl font-bold mb-4">
+        Java Programming
+      </h3>
+
+      <p className="text-slate-400 mb-6">
+        Java programming fundamentals and OOP concepts.
+      </p>
+
+      <a
+        href="#"
+        className="text-sky-400 hover:text-sky-300"
+      >
+        View Certificate →
+      </a>
+
+    </div>
+
+    {/* Certificate 4 */}
+    <div className="bg-slate-900 border border-slate-800 rounded-3xl p-8 hover:border-sky-400 transition">
+
+      <div className="text-5xl mb-6">🧠</div>
+
+      <h3 className="text-2xl font-bold mb-4">
+        Communication Skills
+      </h3>
+
+      <p className="text-slate-400 mb-6">
+        Professional communication and soft skills certification.
+      </p>
+
+      <a
+        href="#"
+        className="text-sky-400 hover:text-sky-300"
+      >
+        View Certificate →
+      </a>
+
+    </div>
+
+  </div>
+</section>
